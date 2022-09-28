@@ -29,7 +29,7 @@
 1. 计算原始图片的能量图
 2. 找到并删除能量最低的接缝，不断重复
 
-关于这些概念及过程的具体解释可参考文件`introduction.pptx`
+关于这些概念及过程的具体解释可参考文件`tutorial.pdf`
 
 ## 3. 拓展
 
@@ -45,4 +45,21 @@ Seam Carving算法同样可以拓展到视频中，结合光流算法或网络�
 
 ## 4. 环境配置
 
-项目所需python库包括`numpy`, `matplotlib`等。
+项目所需python库包括`numpy`, `matplotlib`, `yaml`等。
+
+为更方便项目的实现，建议安装`tqdm`, `scipy`等库。
+
+## 5. 文档结构
+
+```python
+ImageSeamCarving
+        ├────── sc.py        # 项目主体代码
+        ├────── util.py      # 可视化及参数解析（不需修改）
+        ├────── config.yml   # 参数文件（可根据需要修改）
+        ├────── README.pdf   # 项目介绍
+        └────── tutorial.pdf # 作业指导
+```
+
+## 6. 作业要求
+
+详见`tutorial.pdf`

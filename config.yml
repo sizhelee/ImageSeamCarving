@@ -1,0 +1,4 @@
+img_path: "./in.jpg"
+output_path: "./output.jpg"
+direction: 0
+scale: 1.25
